@@ -1,0 +1,219 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16233 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Study/3 курс/Unity/Unity_Tasks/Task_3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56660
+Successfully changed project path to: F:/Study/3 курс/Unity/Unity_Tasks/Task_3
+F:/Study/3 курс/Unity/Unity_Tasks/Task_3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Study/3 курс/Unity/Unity_Tasks/Task_3/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 650 (ID=0xfc6)
+    Vendor:   
+    VRAM:     984 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001557 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.612 seconds
+Domain Reload Profiling:
+	ReloadAssembly (612ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (100ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002358 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1130ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (932ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2213 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 2.616813 ms (FindLiveObjects: 0.171390 ms CreateObjectMapping: 0.048749 ms MarkObjects: 2.329416 ms  DeleteObjects: 0.061041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Цікаві фічі Unity ч.1/Events
+  artifactKey: Guid(4ed13f80181066d4db18fd3c16cda07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.1/Events using Guid(4ed13f80181066d4db18fd3c16cda07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dd67c5c5c9066935f027e354e250b2') in 0.007561 seconds 
+  Import took 0.010226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Цікаві фічі Unity ч.1/Prefabs
+  artifactKey: Guid(057a4bf2a8b0eca4d99a207c9179ded6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.1/Prefabs using Guid(057a4bf2a8b0eca4d99a207c9179ded6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18dd9c42ae69f31aa165f5cc583787e') in 0.004542 seconds 
+  Import took 0.007115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.903388 seconds.
+  path: Assets/Цікаві фічі Unity ч.1/Attributes
+  artifactKey: Guid(753e2b28aa443ef409bafcb84f39030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.1/Attributes using Guid(753e2b28aa443ef409bafcb84f39030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e84f17174f1d2471c1db41512a226b') in 0.004857 seconds 
+  Import took 0.007993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.058067 seconds.
+  path: Assets/Цікаві фічі Unity ч.1/Attributes/ColorScript.cs
+  artifactKey: Guid(e431345ca5bab044cb16077d151c0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.1/Attributes/ColorScript.cs using Guid(e431345ca5bab044cb16077d151c0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ca8a478780db0e6f202158ecd054c2') in 0.022275 seconds 
+  Import took 0.050837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.322970 seconds.
+  path: Assets/Цікаві фічі Unity ч.1/Attributes/SpinScript.cs
+  artifactKey: Guid(fcb49240476e5594a877ef7461d8dcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.1/Attributes/SpinScript.cs using Guid(fcb49240476e5594a877ef7461d8dcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a38685c2fab021d05d749118f4a4ee1') in 0.004555 seconds 
+  Import took 0.007533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.279215 seconds.
+  path: Assets/Цікаві фічі Unity ч.1/Events/TurnColorScript.cs
+  artifactKey: Guid(3ce18280c9a90db4e9984e6ec11d2bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.1/Events/TurnColorScript.cs using Guid(3ce18280c9a90db4e9984e6ec11d2bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abcdae2a920cf85c3262c86f776df65') in 0.004425 seconds 
+  Import took 0.007490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.669443 seconds.
+  path: Assets/Цікаві фічі Unity ч.1/Events/EventManager.cs
+  artifactKey: Guid(cfefddda0cea3424786926cd0f8dbc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.1/Events/EventManager.cs using Guid(cfefddda0cea3424786926cd0f8dbc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8e585228bdcda9af1699fd65509a12') in 0.004296 seconds 
+  Import took 0.007406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.595844 seconds.
+  path: Assets/Цікаві фічі Unity ч.1/Events/TeleportScript.cs
+  artifactKey: Guid(783678fc4f8608e49be3e28d56cdd9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.1/Events/TeleportScript.cs using Guid(783678fc4f8608e49be3e28d56cdd9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428642dfbdfcb422cca7f7f584bbb5bb') in 0.004284 seconds 
+  Import took 0.007202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.153672 seconds.
+  path: Assets/Цікаві фічі Unity ч.1/Ternary Operator/TernaryOperator.cs
+  artifactKey: Guid(4fb1357ce059d17439152412efab0fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.1/Ternary Operator/TernaryOperator.cs using Guid(4fb1357ce059d17439152412efab0fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c574b39bb970c6e6dfec86dbf61c3ea4') in 0.004452 seconds 
+  Import took 0.007612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2125.625421 seconds.
+  path: Assets/Цікаві фічі Unity ч.2/Quaternions/GravityScript.cs
+  artifactKey: Guid(bed4d7d95cfa0e94984b81dbd5e099c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.2/Quaternions/GravityScript.cs using Guid(bed4d7d95cfa0e94984b81dbd5e099c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec0fe491b94c9e48c07239103a55b64') in 0.004686 seconds 
+  Import took 0.008093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.897345 seconds.
+  path: Assets/Цікаві фічі Unity ч.2/Quaternions/LookAtScript.cs
+  artifactKey: Guid(89de159ba57a8824e91cddbeacd1f180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Цікаві фічі Unity ч.2/Quaternions/LookAtScript.cs using Guid(89de159ba57a8824e91cddbeacd1f180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d964dcd35f131d1112eaabc34d5b284') in 0.004451 seconds 
+  Import took 0.007485 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
